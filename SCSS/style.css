@@ -2032,4 +2032,230 @@
     margin-left: 15px;
     text-align: center;
   }
+}
+
+.container3 header {
+  background-color: black;
+  justify-content: center;
+  display: flex;
+  gap: 400px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.container3 header button {
+  display: flex;
+  gap: 5px;
+  font-weight: normal;
+  border: 0px;
+  background-color: transparent;
+  color: white;
+}
+.container3 .header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgba(27, 27, 27, 0.91);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.container3 .header img {
+  margin-right: 200px;
+}
+.container3 .header a {
+  color: white;
+}
+.container3 .header a input {
+  margin-right: 5px;
+  border: 0px;
+  background-color: transparent;
+}
+.container3 .header a input:hover {
+  background-color: green;
+  color: green;
+}
+.container3 .header a:active {
+  color: green;
+}
+.container3 .header a:hover {
+  color: green;
+}
+.container3 .header button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border: 0px;
+  width: 240px;
+  height: 60px;
+  border-radius: 32px;
+}
+.container3 .header button img {
+  margin-right: 0px;
+}
+.container3 .card1 {
+  background: url(/image2/index3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.container3 .card1 .card1-box {
+  display: flex;
+  flex-direction: column;
+  border: 0px;
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 370px;
+  width: 350px;
+  height: 140px;
+  padding-left: 10px;
+}
+.container3 .card1 .card1-box h3 {
+  border: 0px;
+  background-color: gold;
+  margin-top: 10px;
+  border-radius: 15px;
+  font-weight: normal;
+  width: 55px;
+  padding-left: 5px;
+}
+.container3 .card2 .card2-box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.container3 .card2 .card2-box .text {
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  margin-top: 50px;
+}
+.container3 .card2 .card2-box .text h3 {
+  font-weight: normal;
+}
+.container3 .card2 .card2-box .text .text1 {
+  display: flex;
+  flex-direction: column;
+}
+.container3 .card2 .card2-box .text button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid black;
+  border-radius: 32px;
+  background-color: whitesmoke;
+  width: 100px;
+  height: 50px;
+}
+.container3 .card2 .card2-box .text button:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.2s ease-in;
+}
+.container3 .card2 .card2-box .img {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  border: 0px;
+  background-color: transparent;
+  width: 1200px;
+  margin-left: 350px;
+  margin-bottom: 100px;
+}
+.container3 .card8 {
+  margin-bottom: 100px;
+}
+.container3 .card8 .card8-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  background: rgba(27, 27, 27, 0.91);
+  width: 1110px;
+  height: 525px;
+  margin-left: 350px;
+  border-radius: 32px;
+  color: white;
+}
+.container3 .card8 .card8-box h3 {
+  border: 0px;
+  border-radius: 16px;
+  background-color: slategrey;
+  width: 90px;
+  height: 25px;
+  padding-left: 10px;
+  color: white;
+  font-weight: normal;
+  margin-top: 5px;
+}
+.container3 .card8 .card8-box h4 {
+  font-weight: normal;
+  margin-top: 5px;
+}
+.container3 .card8 .card8-box button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border: 0px;
+  width: 210px;
+  height: 50px;
+  border-radius: 32px;
+  margin-top: 10px;
+}
+.container3 .card8 .card8-box button img {
+  margin-right: 0px;
+}
+.container3 .card8 .card8-box input {
+  border: 0px;
+  border-radius: 36px;
+  padding-left: 15px;
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+}
+.container3 .card11 {
+  background-color: black;
+  color: white;
+}
+.container3 .card11 .card11-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.container3 .card11 .card11-box .card11-1 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+.container3 .card11 .card11-box .card11-1 h5 {
+  font-weight: normal;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.container3 .card11 .card11-box .card11-1 button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border: 0px;
+  border-radius: 32px;
+  background-color: whitesmoke;
+  width: 150px;
+  height: 25px;
+}
+.container3 .card11 .card11-box .card11-1 button:hover {
+  background-color: orange;
+  color: white;
+  transition: all 0.2s ease-in;
 }/*# sourceMappingURL=style.css.map */

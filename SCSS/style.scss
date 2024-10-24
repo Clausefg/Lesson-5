@@ -2086,3 +2086,234 @@ text-align: center;
         } 
     }
 }
+.container3{
+    header{
+        background-color: black;
+        justify-content: center;
+        display: flex;
+        gap: 400px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        button{
+            display: flex;
+            gap: 5px;
+            font-weight: normal;
+            border: 0px;
+            background-color: transparent;
+            color: white;
+        }
+    }
+    .header{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: rgba(27, 27, 27, 0.91);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        img{
+            margin-right: 200px;
+        }
+        a{
+            color: white; 
+            input{
+                margin-right: 5px;
+                border: 0px;
+                background-color: transparent;
+            }
+            input:hover{
+                background-color: green;
+                color: green;
+            }
+        }
+        a:active{
+            color: green;
+        }
+        a:hover{
+            color: green;
+        }
+        button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            border: 0px;
+            width: 240px;
+            height: 60px;
+            border-radius: 32px;
+            img{
+                margin-right: 0px;
+            }
+        }
+    }
+    .card1{
+        background: url(/image2/index3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        .card1-box{
+            display: flex;
+            flex-direction: column;
+           border: 0px;
+           background-color: white;
+           border-radius: 15px;
+           margin-left: 370px;
+           width: 350px;
+           height: 140px;
+           padding-left: 10px;
+           h3{
+            border: 0px;
+            background-color: gold;
+            margin-top: 10px;
+            border-radius: 15px;
+            font-weight: normal;
+            width: 55px;
+            padding-left: 5px;
+           }
+        }
+    }
+    .card2{
+        .card2-box{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .text{
+                display: flex;
+                justify-content: center;
+                gap: 300px;
+                margin-top: 50px;
+                h3{
+                    font-weight: normal;
+                }
+                .text1{
+                    display: flex;
+                    flex-direction: column;
+                }
+                    button{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 10px;
+                        border: 1px solid black;
+                        border-radius: 32px;
+                        background-color: whitesmoke;
+                        width: 100px;
+                        height: 50px;
+                       
+                }
+                button:hover{
+                          background-color: black;
+                          color: white;
+                          transition: all 0.2s ease-in;
+                       }
+            }
+            .img{
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                flex-wrap: wrap;
+                border: 0px;
+                background-color: transparent;
+                width: 1200px;
+                margin-left: 350px;
+                margin-bottom: 100px;
+            }
+        }
+    }
+    .card8{
+        margin-bottom: 100px;
+        .card8-box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0px;
+            background: rgba(27, 27, 27, 0.91);
+             width: 1110px;
+             height: 525px;
+             margin-left: 350px;
+             border-radius: 32px;
+             color: white;
+             h3{
+                border: 0px;
+                border-radius: 16px;
+                background-color: slategrey;
+                width: 90px;
+                height: 25px;
+                padding-left: 10px;
+                color: white;
+                font-weight: normal;
+                margin-top: 5px;
+             }
+             h4{
+                font-weight: normal;
+                margin-top: 5px;
+             }
+             button{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+                border: 0px;
+                width: 210px;
+                height: 50px;
+                border-radius: 32px;
+                margin-top: 10px;
+                img{
+                    margin-right: 0px;
+                }
+            }
+            input{
+                border: 0px;
+                border-radius: 36px;
+                padding-left: 15px;
+                width: 200px;
+                height: 50px;
+                margin-top: 10px;
+            }
+             
+        }
+    }
+    .card11{
+        background-color: black;
+        color: white;
+        .card11-box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 50px;
+            padding-top: 50px;
+            padding-bottom: 20px;
+            .card11-1{
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                gap: 70px;
+                h5{
+                    font-weight: normal;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+                button{
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 14px;
+                    border: 0px;
+                    border-radius: 32px;
+                    background-color: whitesmoke;
+                    width: 150px;
+                    height: 25px;
+                 }
+                 button:hover{
+                    background-color: orange;
+                    color: white;
+                    transition: all 0.2s ease-in;
+                 }
+            }
+        }
+    }
+}
